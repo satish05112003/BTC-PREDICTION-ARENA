@@ -1,8 +1,8 @@
-# BTC Prediction Arena 🚀
+# BTC Prediction Arena 
 
 **BTC Prediction Arena** is a real-time, live cryptocurrency prediction engine and visualization dashboard. It watches live Bitcoin prices from Coinbase, runs a mathematical scoring model over multiple indicators, and predicts price movement using a built-in AI Survival Game mechanic across multiple timeframes.
 
-## 🌟 Core Features
+## Core Features
 
 - **Live Data Stream:** Built on top of Coinbase Advanced Trade WebSockets.
 - **Weighted Multi-Timeframe Predictions:** Analyzes the market across 1m, 5m, 15m, 30m, and 1h intervals.
@@ -13,7 +13,7 @@
 
 ---
 
-## 🧠 The Predictive Model (Mathematical Scoring)
+## The Predictive Model (Mathematical Scoring)
 
 The engine relies on a strictly balanced **Weighted Probability Scoring system (Range: -100 to +100)** instead of simple reactive signals. A score greater than `+25` generates an `UP` prediction, while `< -25` generates `DOWN`. Anything in between is considered a "No-trade zone" to protect the engine's accuracy.
 
@@ -65,7 +65,7 @@ A specialized server-side execution loop built for rigid accountability:
 
 ---
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 ### 1. Install Dependencies
 ```bash
